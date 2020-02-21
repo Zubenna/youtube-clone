@@ -3,12 +3,10 @@ body {
     padding: 0;
     margin: 0;
 }
-
 .menu {
     margin-left: 2rem;
     color: #606060;
 }
-
 .image {
     height: 30px;
     width: 100px;
@@ -25,7 +23,6 @@ body {
     padding: 5px;
     font-size: 1.3rem;
 }
-
 .search-box {
     display: inline-block;
     margin-left: 2.3rem; 
@@ -41,18 +38,15 @@ nav .nav-bar{
     margin-bottom: -0.19rem;
     margin-right: 15rem;
 }
-
 .search-button {
     width: 3rem;
     height: 1.94rem;
     margin-left: -0.29rem;
     margin-bottom: -3rem;
 }
-
 .header-icon {
     display: inline;
 }
-
 .nav-icon {
     display: inline-block;
     width: 1.7rem;
@@ -63,35 +57,55 @@ nav .nav-bar{
     fill: #606060;
     cursor: pointer;
   }
-
   .profile-pic {
       border-radius: 50%;
       margin-bottom: -1.2rem;
   }
-
-
 .container{
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-column-gap:4rem;
+    grid-column-gap:3rem;
 }
-
-/*.side-title{
-    margin-right: 2rem;
-}*/
+.video{
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+.side-title{
+    margin-right: 5rem;
+}
+.side-title p{
+  text-transform: uppercase;
+  margin-left: 2rem;
+  color:#606060;
+}
+.fa-toggle-on{
+    margin-left: 1rem; 
+    color:#0077b3;
+}
 .side-pictures{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-row-gap: 1.5rem;  
+    grid-template-columns: 35% 60%;
+    grid-row-gap: 1.5rem; 
+    margin-top: 2rem;   
+}
+.side-picture p{
+   font-size: 1.2rem;
+}
+.side-pictures img{
+    height: 50%;
 }
 .side-title h5{
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin: 0;
     padding-bottom: 0.8rem;
 }
 .side-title h6{
     margin:0;
     color: #283e3e; 
+}
+.video p{
+    font-size: 1.3rem;
+    text-transform: uppercase;
 }
 
 
