@@ -3,6 +3,12 @@ body {
     padding: 0;
     margin: 0;
 }
+
+.menu {
+    margin-left: 2rem;
+    color: #606060;
+}
+
 .image {
     height: 30px;
     width: 100px;
@@ -11,24 +17,59 @@ body {
     background-size: 100px, 30px;
     margin-left: 1.6rem;
     margin-bottom: -0.3rem;
+    margin-right: 5rem;
 }
 .search-bar {
     width: 30rem;
     height: 1.1rem;
     padding: 5px;
     font-size: 1.3rem;
+}
+
+.search-box {
+    display: inline-block;
     margin-left: 2.3rem; 
-    margin-bottom: -0.5rem;
+    margin-bottom: 1rem;
 }
 nav .nav-bar{
     margin-top: 2rem;
 }
+.search-btn {
+    display: inline-block;
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-bottom: -0.19rem;
+    margin-right: 15rem;
+}
+
 .search-button {
     width: 3rem;
-    height: 2.5rem;
-    margin-bottom: 2rem;
-    margin-left: 0;
+    height: 1.94rem;
+    margin-left: -0.29rem;
+    margin-bottom: -3rem;
 }
+
+.header-icon {
+    display: inline;
+}
+
+.nav-icon {
+    display: inline-block;
+    width: 1.7rem;
+    height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: -0.6rem;
+    fill: #606060;
+    cursor: pointer;
+  }
+
+  .profile-pic {
+      border-radius: 50%;
+      margin-bottom: -1.2rem;
+  }
+
+
 .container{
     display: grid;
     grid-template-columns: 60% 40%;
@@ -52,9 +93,6 @@ nav .nav-bar{
     margin:0;
     color: #283e3e; 
 }
-.menu {
-    margin-left: 2.7rem;
-    color: #e0ebeb;
-}
+
 
 
