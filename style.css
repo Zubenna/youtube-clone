@@ -383,11 +383,12 @@ margin-right: 6rem;
     background-color: rgb(247, 247, 248);
     margin-top: 1rem;
     border: solid transparent;
+    margin-left: 33rem;
 }
 #btn-cancel{
     float: right;
     width: 8rem;
-    margin-left: 1.3rem;
+    
     margin-top: 1rem;
     height: 2rem;
 }
@@ -396,10 +397,74 @@ margin-right: 6rem;
 }
 .sort-btn {
 margin-top: 0.85rem;
+height: 2rem;
+margin-bottom: 2rem;
 }
 .comment-section {
     display: grid;
     grid-template-columns: 0.19fr 0.03fr 0.2fr;
+}
+
+#like-btn {
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: -0.8rem;
+    margin-left: 4.3rem;
+}
+
+#like-word {
+    margin-left: 0.5rem;
+margin-right: 0.5rem;
+}
+
+
+#dislike-btn {
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: -0.8rem;
+}
+
+#dislike-word {
+margin-left: 0.3rem;
+margin-right: 0.5rem;
+} */
+
+/* article div {
+    display: inline-block;
+} */
+
+#user-comment {
+   display: inline-block;
+}
+
+#user-comment p{
+    margin-left: 1rem;
+}
+
+
+
+
+
+.user-info {
+    display: inline-block;
+}
+
+.user-comment {
+    border-radius: 50%;
+
+}
+
+#icon {
+    display: inline-block;
+    margin-left: -5rem;
+}
+
+#user-comment {
+    display: inline-block;
+}
+
+#comment-icon {
+    display: inline-block;
 }
 
 
