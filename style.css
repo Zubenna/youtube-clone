@@ -3,28 +3,21 @@ body {
     padding: 0;
     margin: 0;
 }
-
 header {
     background-color: white;
 }
-
 main {
     background-color: transparent;
 }
-
 aside {
-    background-color: transparent;
-    
+    background-color: transparent;   
 }
-
-article {
-    background-color: brown;
-}
-
+/*article {
+    background-color:;
+}*/
 footer {
     background-color: rgb(27, 25, 24);
 }
-
 .header-grid {
     grid-area: header;
     margin-top: -1.5rem;
@@ -32,22 +25,20 @@ footer {
     height: 7rem;
     position: fixed;
 }
-
 .video-grid {
     grid-area: main;
     margin-top: 5rem;
     margin-left: 2rem;
     width: 52rem;
-
 }
-
 .aside-grid {
     grid-area: aside;
     display: grid;
     margin-top: 5rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
+    margin-left: 2rem;
     grid-template-columns: 0.8fr 1.2fr;
-    grid-column-gap: 1rem;
+    grid-column-gap: 0.5rem;
 }
 
 .article-grid {
@@ -273,6 +264,7 @@ nav .nav-bar{
 #show-btn {
     border: solid transparent;
     margin-left: 2.8rem;
+    margin-bottom: 1.3rem;
 }
 
 
@@ -348,17 +340,17 @@ small {
     height: 2rem;
     /* margin-top: -7rem;
     /* margin-bottom: -3rem; */
-    /* margin-left: 8rem; */ */ */
+    /* margin-left: 8rem;  
     cursor: pointer;
 }
 
 .sort-word {
     display: inline;
-    /* margin-top: -8rem; */
+    /* margin-top: -8rem; 
     
 }
 
-article {
+{
     margin-right: 33.7rem;
     margin-left: 4rem;
 }
@@ -369,15 +361,47 @@ article {
     
 }
 
-.sort-button {
-    display: inline;
-    margin-top: -4rem;
+ /*.sort-word p{
+margin-right: 6rem;
+}*/ 
+.comment-stat-container{
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+} 
+.comment-stat input{
+    height: 2rem;
+    width: 100%;
+    border-top:  none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2px #606060;
     
 }
-
+#btn-comment{
+    float: right;
+    height: 2rem;
+    background-color: rgb(247, 247, 248);
+    margin-top: 1rem;
+    border: solid transparent;
+}
+#btn-cancel{
+    float: right;
+    width: 8rem;
+    margin-left: 1.3rem;
+    margin-top: 1rem;
+    height: 2rem;
+}
+.user-img{
+    border-radius: 1.5rem;
+}
+.sort-btn {
+margin-top: 0.85rem;
+}
 .comment-section {
-    display: inline;
-} */ */
+    display: grid;
+    grid-template-columns: 0.19fr 0.03fr 0.2fr;
+}
+
 
 
 
