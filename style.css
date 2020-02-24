@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box; 
     padding: 0;
-    margin: 0;
+    margin: -0.5rem;
 }
 header {
     background-color: white;
@@ -12,11 +12,8 @@ main {
 aside {
     background-color: transparent;   
 }
-/*article {
-    background-color:;
-}*/
 footer {
-    background-color: rgb(27, 25, 24);
+    background-color: #d9d9d9;
 }
 .header-grid {
     grid-area: header;
@@ -48,8 +45,8 @@ footer {
 
 .footer-grid {
     grid-area: footer;
+    
 }
-
 .container-grid {
     display: grid;
     grid-template-areas: 
@@ -60,8 +57,6 @@ footer {
     background-color: rgb(247, 247, 248);
     padding: 10px;
 }
-
-
 .menu {
     margin-left: 3rem;
     color: #606060;
@@ -122,40 +117,17 @@ nav .nav-bar{
       margin-bottom: -1.2rem;
   }
 
-
-/* .container{
-    display: grid;
-    grid-template-columns: 60% 40%;
-    grid-column-gap:3rem;
-}
-.video{
-    margin-left: 4rem;
-    margin-top: 2rem;
-} */
-/* .side-title{
-    margin-right: 5rem;
-} */
 .side-title p{
   text-transform: uppercase;
-  /* margin-left: 2rem; */
   color:#606060;
 }
 .fa-toggle-on{
     margin-left: 1rem; 
     color:#0077b3;
 }
-/* .side-pictures{
-    display: grid;
-    grid-template-columns: 35% 60%;
-    grid-row-gap: 1.5rem; 
-    margin-top: 2rem;   
-} */
 .side-picture p{
    font-size: 1.2rem;
 }
-/* .side-pictures img{
-    height: 50%;
-} */
 .side-title h5{
     font-size: 1rem;
     margin: 0;
@@ -169,17 +141,12 @@ nav .nav-bar{
     font-size: 1rem;
     line-height: 0.5;
 }
-
 #description {
     margin-left: 3rem;
-
 }
-
 .section-icon {
     display: inline-block;
 }
-
-
 
 .like-btn {
     width: 2rem;
@@ -188,12 +155,10 @@ nav .nav-bar{
     margin-bottom: -0.8rem;
     fill: #606060;
 }
-
 .like-word {
     margin-left: -0.2rem;
     margin-right: 0.5rem;
 }
-
 .dislike-btn {
     width: 2rem;
     height: 2rem;
@@ -205,7 +170,6 @@ nav .nav-bar{
     margin-left: -0.2rem;
     margin-right: 0.5rem;
 }
-
 .share-btn {
     width: 2rem;
     height: 2rem;
@@ -216,39 +180,33 @@ nav .nav-bar{
     margin-left: -0.5rem;
     margin-right: 0.5rem;
 }
-
 .save-btn {
     width: 2rem;
     height: 2rem;
     margin-bottom: -0.8rem;
     fill: #606060;
 }
-
 .save-word {
     margin-left: -0.5rem;
     margin-right: 0.5rem;
 }
-
 .three-dots {
     width: 2rem;
     height: 2rem;
     margin-bottom: -0.8rem;
     fill: #606060;
 }
-
 .profile-img {
     border-radius: 50%;
     margin-top: -6rem;
 }
-
 .profile-info {
     display: inline-block;
 }
 
 .sub-btn {
     display: inline-block;
-    margin-left: 35rem;
-    
+    margin-left: 35rem; 
 }
 
 #sub-btn {
@@ -258,112 +216,12 @@ nav .nav-bar{
     background-color: red;
     border: solid transparent;
     margin-top: -2rem;
-
 }
-
 #show-btn {
     border: solid transparent;
     margin-left: 2.8rem;
     margin-bottom: 1.3rem;
 }
-
-
-/*
-
-.srch-icon {
-    margin-bottom: 2rem;
-}
-
-.comment-btn {
-    margin-top: 0.5rem;
-    float: right;
-    border: solid transparent;
-    color: white;
-    cursor: pointer;
-}
-
-.comment {
-    width: 45rem;
-    height: 2rem;
-    float: right;
-    border-top: solid transparent;
-    border-left: solid transparent;
-    border-right: solid transparent;
-    border-bottom-color:#606060;;
-    background: transparent;
-    margin-top: 1rem;
-    
-}
-
-.user-img {
-    display: inline-block;
-    margin-top: 5rem;
-}
-
-
-.user-info {
-    display: inline-block;
-    margin-top: 5rem;
-}
-
-.user-comment {
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.cmn-btn {
-    width: 6.5rem;
-    height: 2rem;
-    margin-right: 1rem;
-    border: solid transparent;
-    background:#606060;
-    cursor: pointer;
-}
-
-p b {
-    font-family: sans-serif;
-}
-
-p {
-    font-family: sans-serif;
-}
-
-small {
-    background: rgb(247, 247, 248);
-    font-size: 0.8rem;
-    color:#606060;;
-}
-
-.sort-btn {
-    display: inline-block;
-    width: 2rem;
-    height: 2rem;
-    /* margin-top: -7rem;
-    /* margin-bottom: -3rem; */
-    /* margin-left: 8rem;  
-    cursor: pointer;
-}
-
-.sort-word {
-    display: inline;
-    /* margin-top: -8rem; 
-    
-}
-
-{
-    margin-right: 33.7rem;
-    margin-left: 4rem;
-}
-
-.comment-word {
-    display: inline;
-    margin-top: 2rem;
-    
-}
-
- /*.sort-word p{
-margin-right: 6rem;
-}*/ 
 .comment-stat-container{
     display: grid;
     grid-template-columns: 0.1fr 1fr;
@@ -375,7 +233,6 @@ margin-right: 6rem;
     border-left: none;
     border-right: none;
     border-bottom: solid 2px #606060;
-    
 }
 #btn-comment{
     float: right;
@@ -388,7 +245,6 @@ margin-right: 6rem;
 #btn-cancel{
     float: right;
     width: 8rem;
-    
     margin-top: 1rem;
     height: 2rem;
 }
@@ -404,67 +260,55 @@ margin-bottom: 2rem;
     display: grid;
     grid-template-columns: 0.19fr 0.03fr 0.2fr;
 }
-
 #like-btn {
     width: 2rem;
     height: 2rem;
     margin-bottom: -0.8rem;
     margin-left: 4.3rem;
 }
-
 #like-word {
     margin-left: 0.5rem;
 margin-right: 0.5rem;
 }
-
-
 #dislike-btn {
     width: 2rem;
     height: 2rem;
     margin-bottom: -0.8rem;
 }
-
 #dislike-word {
 margin-left: 0.3rem;
 margin-right: 0.5rem;
-} */
-
-/* article div {
-    display: inline-block;
-} */
-
+} 
 #user-comment {
    display: inline-block;
 }
-
 #user-comment p{
     margin-left: 1rem;
 }
 
-
-
-
-
 .user-info {
     display: inline-block;
 }
-
 .user-comment {
     border-radius: 50%;
-
 }
-
 #icon {
     display: inline-block;
     margin-left: -5rem;
 }
-
 #user-comment {
     display: inline-block;
 }
-
 #comment-icon {
     display: inline-block;
+}
+footer{
+    text-align: center;
+    
+}
+footer p{
+    font-size: 1rem;
+    font-family: Georgia, serif;
 }
 
 
