@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box; 
     padding: 0;
-    margin: -0.5rem;
+    margin: 0;
 }
 header {
     background-color: white;
@@ -39,7 +39,7 @@ footer {
 }
 
 .article-grid {
-    grid-area: article;
+    grid-area: section;
     margin-left: 2rem;
 }
 
@@ -52,7 +52,7 @@ footer {
     grid-template-areas: 
     'header header'
     'main aside'
-    'article aside'
+    'section aside'
     'footer footer';
     background-color: rgb(247, 247, 248);
     padding: 10px;
@@ -260,29 +260,29 @@ margin-bottom: 2rem;
     display: grid;
     grid-template-columns: 0.19fr 0.03fr 0.2fr;
 }
-#like-btn {
+.comment-like-btn{
     width: 2rem;
     height: 2rem;
     margin-bottom: -0.8rem;
     margin-left: 4.3rem;
 }
-#like-word {
+.comment-like-word {
     margin-left: 0.5rem;
 margin-right: 0.5rem;
 }
-#dislike-btn {
+.comment-dislike-btn {
     width: 2rem;
     height: 2rem;
     margin-bottom: -0.8rem;
 }
-#dislike-word {
+.comment-dislike-word {
 margin-left: 0.3rem;
 margin-right: 0.5rem;
 } 
-#user-comment {
+.user-comment-items {
    display: inline-block;
 }
-#user-comment p{
+.user-comment-items p{
     margin-left: 1rem;
 }
 
@@ -296,10 +296,10 @@ margin-right: 0.5rem;
     display: inline-block;
     margin-left: -5rem;
 }
-#user-comment {
+.user-comment-items {
     display: inline-block;
 }
-#comment-icon {
+.comment-icon {
     display: inline-block;
 }
 footer{
