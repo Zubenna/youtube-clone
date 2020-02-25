@@ -1,4 +1,4 @@
-#Embeding images and video in a webpage.
+**Embeding images and video in a webpage.**
 This project consists of building an HTML document that matches the appearance of youtube page.
 The aim of the project is to apply the use of pure HTML5 elements and CSS3 to setup a basic webpage structure using the semantic HTML5. It also involves positioning of elements in the right position on the page.
 
@@ -11,7 +11,7 @@ HTML5 and CSS3 are the major technology used in building this project.
 CSS Grid is used for the page layout.
 
 Live Demo
-[Live Demo](https://rawcdn.githack.com/Zubenna/youtube-clone/8e423bfc7a9b8b296c81cfea958abba2c224fe62/index.html)
+[Live Demo](https://rawcdn.githack.com/Zubenna/youtube-clone/7f6417134a9f45ecfef1b83cb50712c186c86f88/index.html)
 
 Getting Started
 Access the Project GitHub repository using the link above. Clone the project repository to your local machine. Navigate to the project folder and open the index.htm file with any browser of your choice. The cloned youtube page will be displayed in your browser.
