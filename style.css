@@ -217,16 +217,16 @@ nav .nav-bar{
 
 .sub-btn {
     display: inline-block;
-    margin-left: 36rem;
+    margin-left: 35rem;
     position: relative;
     bottom: 0.7rem;
 }
 
 #sub-btn {
-    width: 6rem;
+    width: 6.1rem;
     height: 2rem;
-    color: white;
-    background-color: red;
+    color: #ffffff;
+    background-color: #b30000;
     border: solid transparent;
     
 }
