@@ -1,4 +1,4 @@
-Project Name: Embeding images and video in a webpage.
+#Embeding images and video in a webpage.
 This project consists of building an HTML document that matches the appearance of youtube page.
 The aim of the project is to apply the use of pure HTML5 elements and CSS3 to setup a basic webpage structure using the semantic HTML5. It also involves positioning of elements in the right position on the page.
 
@@ -11,7 +11,7 @@ HTML5 and CSS3 are the major technology used in building this project.
 CSS Grid is used for the page layout.
 
 Live Demo
-This project is not hosted in the internet. Here is the link to the Project GitHub repository https://github.com/Zubenna/youtube-clone/tree/page-setup
+[Live Demo](https://rawcdn.githack.com/Zubenna/youtube-clone/8e423bfc7a9b8b296c81cfea958abba2c224fe62/index.html)
 
 Getting Started
 Access the Project GitHub repository using the link above. Clone the project repository to your local machine. Navigate to the project folder and open the index.htm file with any browser of your choice. The cloned youtube page will be displayed in your browser.
@@ -19,14 +19,14 @@ Access the Project GitHub repository using the link above. Clone the project rep
 Authors
 
 Author1
-* GitHub:3rkeen
-* Twitter:3rkeen
-* Linkedin:Erkin Sheraliev
+* GitHub:[@github/3rkeen](https://github.com/3rkeen)
+* Twitter:[@twitter/3rkeen](https://twitter.com/3rkeen)
+* Linkedin:[linkedin/ErkinSheraliev](https://www.linkedin.com/in/erkin-sheraliev-9122631a0/)
 
 Author2
-* GitHub:https://github.com/Zubenna
-* Twitter:https://twitter.com/zubenna
-* Linkedin:https://www.linkedin.com/in/nnamdi-emelu-08b14340/
+* GitHub:[@github/Zubenna](https://github.com/Zubenna)
+* Twitter:[@twitter/zubenna](https://twitter.com/zubenna)
+* Linkedin:[linkedin/NnamdiEmelu](https://www.linkedin.com/in/nnamdi-emelu-08b14340/)
 
 **Contributing**
 handshake Contributing

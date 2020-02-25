@@ -111,25 +111,36 @@ nav .nav-bar{
     margin-bottom: -0.6rem;
     fill: #606060;
     cursor: pointer;
+    
   }
   .profile-pic {
       border-radius: 50%;
       margin-bottom: -1.2rem;
   }
 
+  iframe {
+      width: 52.5rem;
+      height: 30rem;
+  }
+
 .side-title p{
   text-transform: uppercase;
   color:#606060;
+    position: relative;
+    left: 3rem;
+    bottom: 0.4rem;
 }
 .fa-toggle-on{
     margin-left: 1rem; 
     color:#0077b3;
+    position: relative;
+    top: 0.3rem;
 }
 .side-picture p{
    font-size: 1.2rem;
 }
 .side-title h5{
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin: 0;
     padding-bottom: 0.8rem;
 }
@@ -151,7 +162,7 @@ nav .nav-bar{
 .like-btn {
     width: 2rem;
     height: 2rem;
-    margin-left: 16.33rem;
+    margin-left: 17.33rem;
     margin-bottom: -0.8rem;
     fill: #606060;
 }
@@ -206,7 +217,9 @@ nav .nav-bar{
 
 .sub-btn {
     display: inline-block;
-    margin-left: 35rem; 
+    margin-left: 36rem;
+    position: relative;
+    bottom: 0.7rem;
 }
 
 #sub-btn {
@@ -215,12 +228,15 @@ nav .nav-bar{
     color: white;
     background-color: red;
     border: solid transparent;
-    margin-top: -2rem;
+    
 }
 #show-btn {
     border: solid transparent;
     margin-left: 2.8rem;
     margin-bottom: 1.3rem;
+}
+.hr-line{
+    margin: 0;
 }
 .comment-stat-container{
     display: grid;
@@ -309,6 +325,20 @@ footer{
 footer p{
     font-size: 1rem;
     font-family: Georgia, serif;
+}
+.triangle{
+    display: inline-block;
+    margin-left: 4rem;
+}
+.triangle-id {
+    width: 1rem;
+    height: 1rem;
+}
+.reply-id{
+    display: inline-block;
+}
+#comment-header{
+    display: none;
 }
 
 
