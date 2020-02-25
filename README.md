@@ -1,8 +1,8 @@
-**Embeding images and video in a webpage.**
+**Project Name: Embeding images and video in a webpage.**
 This project consists of building an HTML document that matches the appearance of youtube page.
 The aim of the project is to apply the use of pure HTML5 elements and CSS3 to setup a basic webpage structure using the semantic HTML5. It also involves positioning of elements in the right position on the page.
 
-![](image/Youtube-Clone%20Screenshot.PNG)
+![](image/project-image.PNG)
 
 This project is purely a clone of a youtube page. The webpage contains the youtube logo at the top left corner, the search button beside the search input space whict is centrally located at the top of the page. It has the profile picture of a user. The main body contains an embeded video with related video images and description by the right side. Below the embeded video are the description of the video, number of views, likes, share buttons etc. There is a place to make public comment by whoever is viewing the video. Previous comments by various people indicating number of likes, replies etc also comes below the comment area.
 
