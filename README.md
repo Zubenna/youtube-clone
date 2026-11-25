@@ -19,11 +19,6 @@ Access the Project GitHub repository using the link above. Clone the project rep
 Authors
 
 Author1
-* GitHub:[@github/3rkeen](https://github.com/3rkeen)
-* Twitter:[@twitter/3rkeen](https://twitter.com/3rkeen)
-* Linkedin:[linkedin/ErkinSheraliev](https://www.linkedin.com/in/erkin-sheraliev-9122631a0/)
-
-Author2
 * GitHub:[@github/Zubenna](https://github.com/Zubenna)
 * Twitter:[@twitter/zubenna](https://twitter.com/zubenna)
 * Linkedin:[linkedin/NnamdiEmelu](https://www.linkedin.com/in/nnamdi-emelu-08b14340/)
